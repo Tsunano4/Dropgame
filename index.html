@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="indexStyle.css">
+    <title>Drag and Drop Tic Tac Toe</title>
+</head>
+<body>
+    <div class="content">
+        <div class="title">
+            <h1>Tic</h1>
+            <h1>Tac</h1>
+            <h1>Toe</h1>
+        </div>
+            <div class="scoring">
+            <div id="score-x">Player X Score: 0</div>
+            <div id="score-o">Player O Score: 0</div>
+        </div>
+        <div id="app" class="container">
+            <div class="x-cont">
+            
+            </div>
+            <div class="grid" id="grid"></div>
+            <div class="o-cont">
+                
+            </div>
+        </div>
+        <button id="restart-btn">Restart</button>
+        <div id="player-message" >First Move Player: X</div>
+        <div id="winner-message" class="hidden"></div>
+    </div>
+    <script src="indexScript.js"></script>
+</body>
+</html>
